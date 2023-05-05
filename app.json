@@ -1,4 +1,11 @@
 {
   "name": "signinFirebase",
-  "displayName": "signinFirebase"
+  "displayName": "signinFirebase",
+  "android": {
+    "googleServicesFile": "./google-services.json"
+  },
+  "ios": {
+    "googleServicesFile": "./GoogleService-Info.plist"
+  },
+  "plugins": ["@react-native-google-signin/google-signin"]
 }
